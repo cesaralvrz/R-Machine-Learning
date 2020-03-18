@@ -1,4 +1,7 @@
 # R-Machine-Learning
+
+![](graficas/machine-learning.jpg)
+
 Pequeño manual personal para hacer Machine Learning en R.
 
 Una de las claves del machine learning es disponer de unos buenos datos que ayuden a nuestro algoritmo a aprender. Para ello, existen numerosas técnicas que nos permite mejorar nuestro conjunto de entrenamiento realizando un pre-procesamiento previo.
@@ -434,8 +437,8 @@ pred
 table(pred, test$Species)
 ```
 
-*GRAFICO6*
-*GRAFICO7*
+![](graficas/Rplot6.png)
+![](graficas/Rplot7.png)
 
 ## J48
 Para comenzar, debemos instalarnos la librería de *RWeka* . 
@@ -452,7 +455,7 @@ predJ48 = predict(model, newdata = test)
 table(predJ48, test$Species)
 ```
 
-*GRAFICO8*
+![](graficas/Rplot8.png)
 
 ## Técnicas de Regresión
 Cuando nos enfrentamos a un problema de regresión, nos enfrentamos al problema de predecir una variable cuyo valor es continuo. Por ello, este problema suele ser más complicado que un problema de clasificación.
@@ -483,7 +486,7 @@ distPred
 test
 ```
 
-*GRAFICO9*
+![](graficas/Rplot9.png)
 
 ## M5
 El algoritmo M5 crea un árbol de decisión, donde sus hojas son modelos lineales.
@@ -579,8 +582,8 @@ nrow(test) # Numero de casos
 sum(diag(tabla)) / nrow(test)
 ```
 
-*GRAFICO10*
-*GRAFICO11*
+![](graficas/Rplot10.png)
+![](graficas/Rplot11.png)
 
 ### Ejercicio2
  
@@ -638,8 +641,8 @@ aciertos
 # Podemos mejorar añadiendo la variable gleason a la formula.
 ```
 
-*GRAFICO12*
-*GRAFICO13*
+![](graficas/Rplot12.png)
+![](graficas/Rplot13.png)
 
 ### Ejercicio 3
 
@@ -704,11 +707,11 @@ distPred
 test
 ```
 
-*GRAFICO14*
-*GRAFICO15*
-*GRAFICO16*
-*GRAFICO17*
-*GRAFICO18*
+![](graficas/Rplot14.png)
+![](graficas/Rplot15.png)
+![](graficas/Rplot16.png)
+![](graficas/Rplot17.png)
+![](graficas/Rplot18.png)
 
 ### Ejercicio 5
 
