@@ -8,6 +8,8 @@ Algoritmos de Machine Learning:
 * Clasificación: Para predecir el valor de una variable categórica.
 * Regresión: Para predecir el valor de una variable continua.
 
+https://www.kaggle.com/
+
 ## Missing Values o Valores Faltantes
 Un valor faltante en R se define como aquel del cual sabemos su tipo pero no su valor. Estos valores, se representan como *NA*. El problema de estos valores es que nos impiden poder realizar analítica sobre ellos. La idea es no tenerlos en consideración. Veamos un ejemplo.
 
