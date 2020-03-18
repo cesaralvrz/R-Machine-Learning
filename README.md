@@ -3,6 +3,11 @@ Pequeño manual personal para hacer Machine Learning en R.
 
 Una de las claves del machine learning es disponer de unos buenos datos que ayuden a nuestro algoritmo a aprender. Para ello, existen numerosas técnicas que nos permite mejorar nuestro conjunto de entrenamiento realizando un pre-procesamiento previo.
 
+Algoritmos de Machine Learning:
+	* Clustering: Para realizar agrupamientos de datos.
+	* Clasificación: Para predecir el valor de una variable categórica.
+	* Regresión: Para predecir el valor de una variable continua.
+
 ## Missing Values o Valores Faltantes
 Un valor faltante en R se define como aquel del cual sabemos su tipo pero no su valor. Estos valores, se representan como *NA*. El problema de estos valores es que nos impiden poder realizar analítica sobre ellos. La idea es no tenerlos en consideración. Veamos un ejemplo.
 
