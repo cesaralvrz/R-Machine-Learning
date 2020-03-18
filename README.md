@@ -108,7 +108,7 @@ points(trans[,3], col = "blue", pch = 4)
 points(trans[,4], col = "brown", pch = 5)
 ```
 
-*GRAFICO1*
+![](graficas/Rplot1.png)
 
 ## Kmeans
 
@@ -147,7 +147,7 @@ clusplot(train, fit$cluster, color = TRUE, shade = TRUE, labels = 2, lines = 0)
 table(y, fit$cluster)
 ```
 
-*GRAFICO2*
+![](graficas/Rplot2.png)
 
 Es difícil, a la hora de aplicar clustering, saber el número de clusters qué estamos buscando. Para ello, existen algunos métodos que intentan ayudarnos, pero no hay nada fijo. Nosotros, podemos usar la variable withinss resultante de aplicar el modelo.
 
@@ -185,7 +185,7 @@ plot(arbolIris, labels = FALSE)
 rect.hclust(arbolIris, k = 3)
 ```
 
-*GRAFICO3*
+![](graficas/Rplot3.png)
 
 
 Para comprobar resultados, volvemos a crear una tabla.
@@ -411,7 +411,7 @@ testPred
 table(testPred, test$Species)
 ```
 
-*GRAFICO5*
+![](graficas/Rplot5.png)
 
 ## Random Forest
 Otra técnica en clasificación es el random forest, el cual consiste en crear /n/ arboles de decisión con /n/ conjuntos distintos de entrenamiento (ocurre internamente). Luego, la predicción será aquella dada por la mayoría de los árboles.
